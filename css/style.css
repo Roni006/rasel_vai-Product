@@ -15,7 +15,8 @@ body{
 .product-section{
     height:80vh;
     /* padding: 60px 0; */
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 80px;
     
 }
 .product-section .pro-title h1{
@@ -72,7 +73,12 @@ nav ul li a:hover{
 }
 .product-row .product1{
     width: 30%;
-    height: 80vh;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: 0.3s;
+}
+.product-row .product1:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 .product-row .pro-content{
     background-color: #fff;
