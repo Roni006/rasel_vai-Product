@@ -1,4 +1,4 @@
-/* PRODUCT SECTION START */
+/* ESSENTIAAL SET UP */
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +7,16 @@
 }
 body{
     margin-bottom: 300px;
-}
-.product-section{
-    height: 100vh;
-    padding: 60px 0;
     background-color: #f0f0f0;
+}
+
+
+/* PRODUCT SECTION START */
+.product-section{
+    height:80vh;
+    /* padding: 60px 0; */
+    padding-top: 30px;
+    
 }
 .product-section .pro-title h1{
     font-size: 45px;
@@ -24,11 +29,42 @@ body{
     width: 340px;
     margin: 0 auto;
 }
+nav{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 25px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+nav ul li a:hover{
+    background-color: green;
+    color: #fff;
+}
 .product-row{
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    margin-bottom: 50px;
+    margin-top: 60px;
+    /* position: relative; */
     
 }
 .product-row img{
@@ -36,6 +72,7 @@ body{
 }
 .product-row .product1{
     width: 30%;
+    height: 80vh;
 }
 .product-row .pro-content{
     background-color: #fff;
@@ -71,5 +108,17 @@ body{
 .product-row .pro-content .order a:hover{
     background-color: green;
     color: #fff;
+}
+.product-section .item-title h1{
+    margin-left: -95px;
+    margin-bottom: -40px;
+    background-color: orangered;
+    width: 225px;
+    text-align: center;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
 }
 /* PRODUCT SECTION END */
